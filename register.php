@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost","root","","bakerydb");
+require_once 'db.php';
 
 if(!$conn){
     die("Database connection failed");

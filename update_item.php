@@ -6,7 +6,7 @@ if(!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin'){
     header("Location: login.php");
     exit;
 }
-$conn = mysqli_connect("localhost","root","","bakeryDB");
+require_once 'db.php';
 if(!$conn){
     die("Connection failed: ".mysqli_connect_error());
 }

@@ -4,7 +4,7 @@ if(!isset($_SESSION['user_id'])){
     header("Location: login.php"); exit;
 }
 
-$conn    = mysqli_connect("localhost","root","","bakerydb");
+require_once 'db.php';
 $user_id = intval($_SESSION['user_id']);
 
 // Fetch cart items

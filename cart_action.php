@@ -7,7 +7,7 @@ if(!isset($_SESSION['user_id'])){
     exit;
 }
 
-$conn = mysqli_connect("localhost","root","","bakerydb");
+require_once 'db.php';
 if(!$conn){ echo json_encode(['success' => false, 'message' => 'DB error']); exit; }
 
 $user_id = intval($_SESSION['user_id']);

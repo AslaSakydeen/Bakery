@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect("localhost","root","","bakerydb");
+require_once 'db.php';
 if(!$conn){ die("Connection Failed: ".mysqli_connect_error()); }
 
 // Cart count for navbar badge
