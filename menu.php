@@ -38,7 +38,7 @@ if(isset($_SESSION['user_id'])){
 .category-tabs button{background-color:var(--orange-clr);color:#fff;border:none;padding:.5rem 1.5rem;border-radius:50px;cursor:pointer;font-weight:600;transition:.3s;}
 .category-tabs button.active,
 .category-tabs button:hover{background-color:var(--black-clr);color:var(--orange-clr);}
-.con{align-items:center;margin-left:380px;margin-bottom:50px;}
+.con{align-items:center;margin-left:280px;margin-bottom:50px;}
 
 /* Menu Items Grid */
 .menu-items{display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;margin-bottom:3rem;}
