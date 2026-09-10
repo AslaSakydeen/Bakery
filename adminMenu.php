@@ -164,6 +164,7 @@ td button.edit:hover {
     background: var(--black-clr);
 }
 </style>
+<link rel="stylesheet" href="global.css">
 
 </head>
 <body>

@@ -152,6 +152,7 @@ body{display:flex;min-height:100vh;background:#f9f9f9;}
     color: var(--white-clr);
 }
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

@@ -78,6 +78,7 @@ tr:hover { background-color: #fdf5f1; }
 .action-btn.delete { background-color: #dc3545; }
 .action-btn.delete:hover { background-color: #a71d2a; }
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

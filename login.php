@@ -132,6 +132,7 @@ body{
 }
 
     </style>
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
 

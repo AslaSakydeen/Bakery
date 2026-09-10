@@ -133,6 +133,7 @@ body{background:#f5f5f5;min-height:100vh;}
 
 @media(max-width:768px){.checkout-layout{grid-template-columns:1fr;} .order-summary-box{order:-1;position:static;}}
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

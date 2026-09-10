@@ -49,6 +49,7 @@ mysqli_close($conn);
         a { display: inline-block; margin-top: 1.5rem; background: #e96c28; color: #fff; padding: 0.7rem 1.5rem; border-radius: 50px; text-decoration: none; font-weight: 600; }
         a:hover { background: #000; }
     </style>
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
     <h2>Database Setup Results</h2>

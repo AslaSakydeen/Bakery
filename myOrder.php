@@ -107,6 +107,7 @@ body{background:#f5f5f5;min-height:100vh;}
     .order-right{grid-column:2;}
 }
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

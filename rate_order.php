@@ -91,6 +91,7 @@ body{background:linear-gradient(135deg,#fff8f4 0%,#f5f5f5 100%);min-height:100vh
 
 /* Star label hints */
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

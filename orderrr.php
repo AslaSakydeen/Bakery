@@ -111,6 +111,7 @@ button:hover{
     color: var(--orange-clr);
 }
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

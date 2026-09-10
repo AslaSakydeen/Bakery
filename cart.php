@@ -108,6 +108,7 @@ body{background:#f5f5f5;min-height:100vh;}
     .item-unit-price{display:none;}
 }
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

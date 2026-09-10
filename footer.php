@@ -85,6 +85,7 @@ footer .card-container{
 
 
     </style>
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
     <!-- Footer part -->

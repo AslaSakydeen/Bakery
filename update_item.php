@@ -166,6 +166,7 @@ form button:hover {
 }
 
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 <h2 style="text-align:center;">Update Menu Item</h2>

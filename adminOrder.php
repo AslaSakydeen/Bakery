@@ -95,6 +95,7 @@ tbody tr:hover{background:#fdf5f1;}
 
 @media(max-width:768px){.sidebar{width:60px;}.sidebar h2,.sidebar a span{display:none;}.sidebar a{text-align:center;padding:15px 0;}.sidebar a i{margin:0;}}
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

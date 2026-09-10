@@ -78,6 +78,7 @@ if(isset($_SESSION['user_id'])){
 #toast.success{background:#2e7d32;}
 #toast.error{background:#c62828;}
 </style>
+<link rel="stylesheet" href="global.css">
 </head>
 <body>
 
