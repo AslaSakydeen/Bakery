@@ -175,10 +175,7 @@ if(isset($_SESSION['user_id'])){
       <h3><?php echo htmlspecialchars($row['name']); ?></h3>
       <p><?php echo htmlspecialchars($row['description']); ?></p>
 
-      <div class="star-display">
-        <?php echo $starsHtml; ?>
-        <span class="rating-count"><?php echo $ratingLabel; ?></span>
-      </div>
+
 
       <span class="stock-badge <?php echo $badgeClass; ?>"><?php echo $badgeText; ?></span>
 

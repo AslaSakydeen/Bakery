@@ -90,7 +90,7 @@
          </div>   
             <div class="card-container">
                 <div class="card" data-type="category">
-                    <img src="images/pastry.jpeg" >
+                    <img src="images/images/1767654655_turnover.jpg" >
                     <h3>Pastry</h4>
                 </div>
                 <div class="card" data-type="category">
