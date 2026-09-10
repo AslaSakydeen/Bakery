@@ -1,0 +1,59 @@
+/* =========================================
+   GLOBAL WEBSITE SIZE
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Main website width */
+.container {
+    width: 80%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Prevent oversized images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Large desktop */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1199px) {
+    .container {
+        width: 85%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .container {
+        width: 92%;
+    }
+}
