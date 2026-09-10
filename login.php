@@ -46,6 +46,7 @@ if(isset($_POST['login'])){
 <head>
     <title>Login | Bakery</title>
     <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="global.css">
     <style>
         
 :root{
@@ -132,7 +133,6 @@ body{
 }
 
     </style>
-    <link rel="stylesheet" href="global.css">
 </head>
 <body>
 

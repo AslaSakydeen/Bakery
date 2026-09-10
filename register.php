@@ -36,6 +36,8 @@ if(isset($_POST['register'])){
 <head>
     <title>Register | Bakery</title>
     <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="global.css">
+
     <style>
         
 :root{
@@ -134,7 +136,6 @@ body{
 }
 
     </style>
-    <link rel="stylesheet" href="global.css">
 </head>
 <body>
 

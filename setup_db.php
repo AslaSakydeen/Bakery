@@ -42,6 +42,7 @@ mysqli_close($conn);
 <html>
 <head>
     <title>Database Setup</title>
+        <link rel="stylesheet" href="global.css">
     <style>
         body { font-family: Poppins, sans-serif; max-width: 600px; margin: 4rem auto; padding: 2rem; background: #f9f9f9; }
         h2 { color: #e96c28; margin-bottom: 1.5rem; }
@@ -49,7 +50,6 @@ mysqli_close($conn);
         a { display: inline-block; margin-top: 1.5rem; background: #e96c28; color: #fff; padding: 0.7rem 1.5rem; border-radius: 50px; text-decoration: none; font-weight: 600; }
         a:hover { background: #000; }
     </style>
-    <link rel="stylesheet" href="global.css">
 </head>
 <body>
     <h2>Database Setup Results</h2>

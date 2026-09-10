@@ -20,6 +20,7 @@ if(isset($_SESSION['user_id'])){
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
 <style>
 :root{
     --orange-clr: #e96c28;
@@ -78,7 +79,6 @@ if(isset($_SESSION['user_id'])){
 #toast.success{background:#2e7d32;}
 #toast.error{background:#c62828;}
 </style>
-<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

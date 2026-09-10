@@ -49,6 +49,8 @@ $result = mysqli_query($conn, "SELECT id, fullname, email, role, created_at FROM
 <title>Admin Dashboard | Users</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+
 <style>
 :root{--orange-clr:#e96c28;--white-clr:#fff;--black-clr:#000;--gray-clr:#636363;--light-gray:#c4c4c4;}
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
@@ -78,7 +80,6 @@ tr:hover { background-color: #fdf5f1; }
 .action-btn.delete { background-color: #dc3545; }
 .action-btn.delete:hover { background-color: #a71d2a; }
 </style>
-<link rel="stylesheet" href="global.css">
 </head>
 <body>
 

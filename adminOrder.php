@@ -52,6 +52,8 @@ function statusBadge($status){
 <title>Admin — Orders | Bakery</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+
 <style>
 :root{--orange-clr:#e96c28;--white-clr:#fff;--black-clr:#000;--gray-clr:#636363;--light-gray:#c4c4c4;}
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
@@ -95,7 +97,6 @@ tbody tr:hover{background:#fdf5f1;}
 
 @media(max-width:768px){.sidebar{width:60px;}.sidebar h2,.sidebar a span{display:none;}.sidebar a{text-align:center;padding:15px 0;}.sidebar a i{margin:0;}}
 </style>
-<link rel="stylesheet" href="global.css">
 </head>
 <body>
 
